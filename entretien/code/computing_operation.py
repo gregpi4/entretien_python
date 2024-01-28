@@ -14,7 +14,7 @@ Each argument of the operation is a string, and can take 3 types of values:
 - a number (ex: "1")
 - a reference to a previous operation result (ex: "$1")
 - nothing (ex: "_")
-The result of each operation must be given in the order the operations were given.
+The result of each operation must be given in the order the operations were read.
 This can be done by calling the add_line_answer method of the stream.
 
 Example:
